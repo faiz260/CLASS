@@ -1,0 +1,49 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+h1{
+    color: blue;
+}
+
+.css-class{
+    color: hotpink;
+}
+
+h2{
+    color: green;
+    border: 1px solid;
+}
+
+.heading1{
+    color: red;
+}
+
+#heading2{
+    color: yellow;
+}
+
+ul > li{
+    color: goldenrod;
+}
+
+.li1{
+    color: gray;
+}
+
+p a{
+    color: red;
+    text-decoration: none;
+}
+
+h3+p {
+    color: hotpink;
+}
+
+h4{
+    color:blueviolet ;
+}
+h4{
+    color: blue;
+}

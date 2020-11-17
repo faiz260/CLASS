@@ -1,0 +1,18 @@
+*{
+    background-color: rgb(168, 167, 167);
+}
+
+.heading{
+    color: rgba(255, 255, 255, 0.8);
+    /* opacity: 0.9; */
+    background-color: rgba(45, 47, 187, 0.8);
+}
+
+.para1{
+    color: rgb(32, 32, 32);
+}
+
+.heading2{
+    background-color: hsla(10, 50%, 90%, 0.9);
+    color: hsl(0, 50%, 10%);
+}

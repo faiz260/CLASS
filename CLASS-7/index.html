@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+
+      <h3>Your date of birth: </h3>
+      <input type="date">
+
+        <!-- Radio Buttons -->
+      <p>Your Nationality:</p>
+      <input type="radio" name="nationality" value="pakistani" /> Pakistani
+      <input checked="checked" type="radio" name="nationality" value="canadian" /> Canadian
+      <input 
+      type="radio" 
+      name="nationality" 
+      value="american" 
+      /> American
+        <br>
+
+        <!-- Checkboxes -->
+       <p>Your favourite colors: </p> 
+      <input type="checkbox" checked="checked" name="colors" value="red"> Red
+      <input type="checkbox" name="colors" value="blue"> Blue
+      <input type="checkbox" name="colors" value="yellow"> Yellow
+      <input type="checkbox" name="colors" value="green"> Green
+
+        <!-- Drop down list box -->
+        <p>Your Nationality: </p>
+        <select name="nationality" size="3" multiple="multiple">
+            <option value="pakistani">Pakistani</option>
+            <option value="American" selected="selected">American</option>
+            <option value="canadian">Canadian</option>
+            <option value="canadian">Canadian</option>
+            <option value="canadian">Canadian</option>
+            <option value="canadian">Canadian</option>
+        </select>
+
+        <!-- Input file -->
+        <p>Upload your picture: </p>
+        <input type="file" name="picture" >
+        <input type="image" value="submit" width="80" height="30" src="Images/download (2).jpg">
+
+        <p>Add a picture: </p>
+        <input type="file" name="picture" >
+        <button> <img src="Images/download (2).jpg" width="80" height="30" alt="">  Add</button>
+      
+        <input type="hidden">
+        <br>
+        <br>
+        <br>
+
+        <label> Age: <input type="text" name="" id=""> </label>
+
+        <p>Gender: </p>
+        <input id="female" type="radio" name="gender" value="female">
+        <label for="female">Female</label>
+        <input id="male" type="radio" name="gender" value="male">
+        <label for="male">Male</label>
+
+
+
+
+        <fieldset>
+          <legend>Contact</legend>
+          <label>Phone Number: <input required="required" type="number" name="phone-number">
+          </label> 
+          <br>
+          <br>
+          <label>Email: <input  required="required" type="email" name="email"> </label>
+          <input type="submit">
+        </fieldset>
+
+      </form>
+  </body>
+</html>
