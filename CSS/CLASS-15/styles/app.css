@@ -1,0 +1,29 @@
+p {
+  border: 10px solid;
+  height: 100px;
+  width: 500px;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  border-image: url("../Images/download.jpeg") 20 stretch;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: #f5deb3;
+  margin: auto;
+  /* box-shadow: 10px 10px 10px #997023; */
+  border-radius: 0px;
+}
+
+ul {
+  /* list-style-type: decimal; */
+  width: 300px;
+}
+li {
+    list-style: outside circle;
+  /* list-style-type: decimal;
+  list-style-position: inside; */
+  /* list-style-image: url("../Images/download.jpeg"); */
+}
