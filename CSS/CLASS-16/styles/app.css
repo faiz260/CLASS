@@ -1,0 +1,27 @@
+table{
+    width: 100%;
+    margin: auto;
+    empty-cells: show;
+    border-spacing: 50px 10px;
+}
+
+th{
+    font-size: 20px;
+    border-bottom: 3px solid;
+    padding: 20px;
+}
+td{
+    /* border: 1px solid; */
+}
+
+td:hover{
+    background-color: teal;
+    cursor: pointer;
+    border: 1px solid ;
+}
+.even{
+    background-color: rgb(117, 230, 218);
+}
+.money{
+    text-align: right;
+}
