@@ -1,4 +1,7 @@
-/* body {
+
+/* FIXED WIDTH LAYOUT */
+
+body {
   width: 960px;
   margin: 0 auto;
 }
@@ -24,7 +27,9 @@
 li {
   display: inline;
   padding: 5px;
-} */
+}
+
+/* LIQUID LAYOUT */
 
 body {
   width: 100%;
